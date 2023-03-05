@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+}
+
+body {
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+}
+
+.titulo-1,.titulo-2 {
+    color: rgb(9, 36, 15);
+    margin: 5%;
+}
+
+.titulo-1{
+    margin-left: 0%;
+}
+
+header {
+    background-image: url(./IMG/wallpaper-better.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner {
+    margin: 4%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.bold{
+    color: rgb(9, 36, 15);
+}
+
+.habilidades{ 
+    width: 40%;
+    line-height: 1.5;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+}
+
+.descricao{ 
+    width: 40%;
+    line-height: 1.5;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+}
+
+main{
+    margin-left: 90px;
+}
+
+.conteiner {
+    display: flex;
+    margin-inline-end: 10;
+}
+
+.title-conteiner {
+    display:flex;
+}
+
+.botao,.botao-contato{
+    border-radius: 3rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(9, 36, 15);
+    font-weight: bold;
+    padding: 1rem 2rem;
+    margin: 20px;
+}
+
+.redes-sociais a{
+    color: rgb(255, 255, 255);
+    background-color: rgb(9, 36, 15);
+    width: 24%;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 0.5%;
+    margin-top: 6%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.nota-agradecimento{
+    color: rgb(78, 78, 78);
+    
+    width: 90%;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 4%;
+    margin-top: 1%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.nota-texto{
+    color:rgb(9, 36, 15);
+}
+
+a{
+    text-decoration: none;
+}
